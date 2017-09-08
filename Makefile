@@ -1,6 +1,6 @@
 CC = g++
 CFLAGS = -I.
-OBJS = test.o person.o student.o teacher.o
+OBJS = test.o person.o student.o teacher.o course.o util.o
 
 school: $(OBJS)
 	$(CC) $(CFLAGS) -o school $(OBJS)
